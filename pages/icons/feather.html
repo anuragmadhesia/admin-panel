@@ -403,23 +403,14 @@
               <div class="card">
 
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-      background: #f5f5f5;
-    }
 
-    h1 {
-      margin-bottom: 20px;
-    }
-
-    .icon-grid {
+    #iconGrid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
       gap: 15px;
     }
 
-    .icon-item {
+    #iconGrid .icon-item {
       background: #fff;
       border-radius: 8px;
       padding: 15px;
@@ -427,13 +418,13 @@
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
 
-    .icon-item i {
+    #iconGrid .icon-item i {
       font-size: 24px;
       display: block;
       margin-bottom: 10px;
     }
 
-    .icon-name {
+    #iconGrid .icon-name {
       font-size: 12px;
       color: #555;
       word-break: break-word;
@@ -441,7 +432,7 @@
   </style>
 <h1>All Icons</h1>
 
-<div class="icon-grid" id="iconGrid"></div>
+<div id="iconGrid"></div>
 
 <script>
   const icons = [
